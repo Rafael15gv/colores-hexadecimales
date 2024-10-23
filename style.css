@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+}
+
+body{
+    height: 100vh;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor{
+    background-color: whitesmoke;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 14pt; */
+}
+
+button{
+    background-color: rgb(0, 128, 0);
+    border: none;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 85, 0);
+}
+
+button:active{
+    background-color: black;
+    color: white;
+
+}
